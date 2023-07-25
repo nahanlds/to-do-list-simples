@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="conteiner" id="todo-form">
+        <label for="tarefa">Adicionar Tarefa</label>
+        <div id="newTask">
+            <input type="text" name="tarefa" id="tarefa">
+            <button id="addTarefa" type="submit">add</button>
+        </div>
+        <p id="erro"></p>
+        <div id="addTask"></div>
+    </form>
+    <form class="conteiner-edit hide" id="edit-form">
+        <label for="tarefa">Editar Tarefa</label>
+        <div id="newTask">
+            <input type="text" name="tarefa" id="atualizarTask">
+            <button id="atualizarTask" type="submit">Atualizar</button>
+        </div>
+        <p id="erro"></p>
+        <div id="addTask"></div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
